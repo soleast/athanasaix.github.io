@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2018/09/13/hello-world/"/>
-      <url>/2018/09/13/hello-world/</url>
-      <content type="html"><![CDATA[<p>该个人博客创建于2018年9月13日</p><p>使用Hexo框架与静态页面，并托管于Github</p>]]></content>
-      
-      
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F09%2F13%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[该个人博客创建于2018年9月13日 使用Hexo框架与静态页面，并托管于Github]]></content>
+  </entry>
 </search>
