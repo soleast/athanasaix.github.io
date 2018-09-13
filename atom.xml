@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Neuegrenze</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-09-13T13:57:35.177Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Sam Chen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/09/13/hello-world/"/>
+    <id>http://yoursite.com/2018/09/13/hello-world/</id>
+    <published>2018-09-13T12:12:04.354Z</published>
+    <updated>2018-09-13T13:57:35.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>该个人博客创建于2018年9月13日</p><p>使用Hexo框架与静态页面，并托管于Github</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;该个人博客创建于2018年9月13日&lt;/p&gt;
+&lt;p&gt;使用Hexo框架与静态页面，并托管于Github&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
