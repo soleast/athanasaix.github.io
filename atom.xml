@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-14T11:27:45.662Z</updated>
+  <updated>2018-09-14T16:05:43.687Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>physics[1]</title>
+    <title>homework for solid state physics-1</title>
     <link href="http://yoursite.com/2018/09/14/homework%20for%20solid%20state%20physics-1/"/>
     <id>http://yoursite.com/2018/09/14/homework for solid state physics-1/</id>
     <published>2018-09-14T10:17:59.000Z</published>
-    <updated>2018-09-14T11:27:45.662Z</updated>
+    <updated>2018-09-14T16:05:43.687Z</updated>
     
     <content type="html"><![CDATA[<p>1.</p><p>​    <strong><em>Elastic modulus of a linear atomic lattice</em></strong>.  The potential energy of a pair of atoms in a crystal is of the form：<br>$$<br>E_p=α_1a^{-9}-α_2a^{-1}<br>$$<br>​    where <em>a</em> is the interatomic separation.  The equilibrium separation is 0.3 nm and the cohesive energy is 4 eV (equivalent to 386 kJ.mol-1).  Find the effective modulus of elasticity for the pair of atoms and determine the force which would be needed to reduce the spacing by 1%.</p><p><strong><em>晶格的弹性模量</em></strong> 。 晶体中一对原子的势能由下式决定:<br>$$<br>E_p=α_1a^{-9}-α_2a^{-1}<br>$$<br>​    其中 a是原子间距离。两原子间平衡距离是0.3nm，内聚能是4eV（即386 kJ/mol）。求这个原子对的有效弹性模量，并确定将原子间距离减少1%所需要的力的大小。</p><p>2.</p><p>​    Take the <strong>CsCl</strong> structure and assume that the cation radius becomes smaller while the anion radius remains constant. What happens to the binding energy? Show that for cations the <strong>NaCl</strong> lattice becomes the preferred structure.</p><p>以氯化铯型晶体结构为例，假设阴离子恒定而阳离子半径减小。键能如何变化？当这是氯化钠型晶体结构时情况如何？</p>]]></content>
     
