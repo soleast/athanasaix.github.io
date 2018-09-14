@@ -1,35 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[重回LaTeX]]></title>
-    <url>%2F2018%2F09%2F15%2F%E9%87%8D%E5%9B%9ELaTeX%2F</url>
-    <content type="text"><![CDATA[重回LaTeX​ 昨天固体物理老师布置了第一次作业，是用doc文档发布的，字体不统一，甚至还有截图放进去的，对复制也造成了一定的干扰。 ​ 我思考了一阵后决定用LaTeX来重新排版并生成pdf，LaTeX内容如下： 1234567891011121314151617181920212223242526\documentclass&#123;article&#125;\usepackage&#123;CJK&#125;\title&#123;Homework for Solid State Physics1&#125;\begin&#123;document&#125;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125; %应用CJK环境\section&#123;Question I&#125;\paragraph&#123;Elastic modulus of a linear atomic lattice. The potential energy of a pair of atoms in a crystal is of the form&#125;\paragraph&#123;$$ E_&#123;p&#125;=\alpha _&#123;1&#125;a^&#123;-9&#125;-\alpha _&#123;2&#125;a^&#123;-1&#125; $$&#125;\paragraph&#123;where a is the interatomic separation. The equilibrium separation is 0.3 nm and the cohesive energy is 4 eV (equivalent to 386 kJ.mol-1). Find the effective modulus of elasticity for the pair of atoms and determine the force which would be needed to reduce the spacing by 1\%.&#125;\paragraph&#123;晶格的弹性模量。 晶体中一对原子的势能由下式决定&#125;\paragraph&#123;$$ E_&#123;p&#125;=\alpha _&#123;1&#125;a^&#123;-9&#125;-\alpha _&#123;2&#125;a^&#123;-1&#125; $$&#125;\paragraph&#123;其中 a是原子间距离。两原子间平衡距离是0.3nm，内聚能是4eV（即386 kJ/mol）。求这个原子对的有效弹性模量，并确定将原子间距离减少1\%所需要的力的大小。 &#125;\paragraph&#123;&#125;\end&#123;CJK&#125;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125; %应用CJK环境\section&#123;Question II&#125;\paragraph&#123;Take the CsCl structure and assume that the cation radius becomes smaller while the anion radius remains constant. What happens to the binding energy? Show that for cations the NaCl lattice becomes the preferred structure. \\ 以氯化铯型晶体结构为例，假设阴离子恒定而阳离子半径减小。键能如何变化？当这是氯化钠型晶体结构时情况如何？&#125;\paragraph&#123;&#125;\end&#123;CJK&#125;\end&#123;document&#125; 这是使用效果：]]></content>
-      <tags>
-        <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[homework for solid state physics-1]]></title>
-    <url>%2F2018%2F09%2F14%2Fhomework%20for%20solid%20state%20physics-1%2F</url>
-    <content type="text"><![CDATA[1. ​ Elastic modulus of a linear atomic lattice. The potential energy of a pair of atoms in a crystal is of the form：$$E_p=α_1a^{-9}-α_2a^{-1}$$​ where a is the interatomic separation. The equilibrium separation is 0.3 nm and the cohesive energy is 4 eV (equivalent to 386 kJ.mol-1). Find the effective modulus of elasticity for the pair of atoms and determine the force which would be needed to reduce the spacing by 1%. 晶格的弹性模量 。 晶体中一对原子的势能由下式决定:$$E_p=α_1a^{-9}-α_2a^{-1}$$​ 其中 a是原子间距离。两原子间平衡距离是0.3nm，内聚能是4eV（即386 kJ/mol）。求这个原子对的有效弹性模量，并确定将原子间距离减少1%所需要的力的大小。 2. ​ Take the CsCl structure and assume that the cation radius becomes smaller while the anion radius remains constant. What happens to the binding energy? Show that for cations the NaCl lattice becomes the preferred structure. 以氯化铯型晶体结构为例，假设阴离子恒定而阳离子半径减小。键能如何变化？当这是氯化钠型晶体结构时情况如何？]]></content>
-      <tags>
-        <tag>固体物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[成键与结晶·从原子说起(1)]]></title>
-    <url>%2F2018%2F09%2F14%2F%E6%88%90%E9%94%AE%E4%B8%8E%E7%BB%93%E6%99%B6%C2%B7%E4%BB%8E%E5%8E%9F%E5%AD%90%E8%AF%B4%E8%B5%B7(1)%2F</url>
-    <content type="text"><![CDATA[从原子结构说起(1)​ An atom is the smallest constituent unit of ordinary matter that has the properties of a chemical element. ​ 原子指的是保持物质化学性质不变的基本单位，也既是说，原子是化学反应中最基本的物质单位。 Atom这个名称，来源于古希腊语的ἄτομον (atomos)，即是“不可分割”的意思。古希腊时代的文化与社会传统，催生出一门名作自然哲学的学科，旨在探讨本体论意义上的世界的构成和起源，虽然在古代，自然科学这一现代文明的基石尚未产生，但古希腊先贤已经讨论及物质的组成，并将探究物质本源的形而上学传统奠定，而最终催生的自然科学。 ​ 存在一不可分割、不生不灭的物质基本组成单位的古希腊哲学思想，在近代的19世纪初由英国化学家约翰·道尔顿( John Dalton)继承并发展，应用于化学领域的研究中，但道尔顿对原子的理解并不涉及到原子的内部结构，仅仅认为原子是不可分割的球形坚硬微粒。 ​ 现代意义上的原子模型，要谈及1897年第一个亚原子微粒的发现，那就是电子(electron)，电子在历史上的第一次发现，在于1897年约瑟夫·约翰·汤姆孙发现放电管中的阴极射线中的粒子携带负电，并测量出荷质比以证明阴极射线是由微粒构成，这种微粒便是今天我们所熟知的电子。 ​ 汤姆逊在构想原子的内部结构时，提出了“梅子布丁模型“(Plum Pudding Model)，他的文章发表于《哲学杂志》的1904年3月刊（Philosophical Magazine，March 1904, p. 237-265），这正是那时候最为权威的自然科学期刊。汤姆逊说—— ”我们假定，在原子的内部，有几个粒子，移动于一个正电荷均匀分布的圆球．我们需要解答的问题是 (1) 原子的内部结构细节，也就是说，粒子怎样摆设自己于圆球内？ (2) 这结构会给予原子什么样的性质？“ ​ 在他的梅子布丁模型中，原子就像一个密质的布丁，而电子是均匀弥漫在布丁内部的梅子。 ​ 除了J·J·汤姆孙提出来的梅子布丁模型，历史上还曾经有过日本物理学家长冈半太郎提出来的长冈半太郎模型或称土星环模型(Nagaoka Model)。 ​ 长冈半太郎认为，相反的电荷间是无法相互穿透的，故而梅子布丁模型中负电荷内嵌于带正电球体的图像难以想象，因此长冈对汤姆逊的原子模型持反对意见。长冈对原子模型提出来两个预测：(1) 原子有一个质量极大的原子核。(2) 电子环绕原子核，并且由受到电磁作用的束缚。这两点都在卢瑟福于1909年在曼彻斯特主持的盖革－马斯登实验（Geiger-Marsden experiment，即是现在通称的卢瑟福散射实验）中得到了确认。 ​ 长冈半太郎的模型灵感，来源于当时对土星环稳定性的解释。因为带电的环将会因为电磁力的排斥力而不稳定，不能够出现在土星环中，故而长冈在得知这一点后放弃了半太郎模型。虽然长冈半太郎的土星环原子模型被否决，但长冈半太郎的物理直觉仍然是准确的，他提出来的两个预测得到了证实，并且被进一步完善为卢瑟福1911年提出的行星模型(Rutherford model) ——电子在原子核外如同行星围绕横行旋转一般围绕原子核进行公转。 ​ 根据卢瑟福模型，散射实验的实验现象得以得到说明，并且也大体上地完善了原子的经典物理图像。但经典的物理图像毕竟是经典，它仍然经受不起这样的怀疑：根据经典电磁理论，围绕原子核公转的电子会发射出电磁辐射，损失能量，以至最终坍缩到原子核里。这与实际情况显然不符，卢瑟福没有解释这个矛盾。 ​ 1912年，正在曼彻斯特大学工作的尼尔斯·玻尔第一次将量子力学的思想引入到原子的行星模型中，波尔提出，原子中的电子处在一系列分立的稳态上，而非如同行星般连续的轨道上。 （待续）]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>重回LaTeX</title>
+      <link href="/2018/09/15/%E9%87%8D%E5%9B%9ELaTeX/"/>
+      <url>/2018/09/15/%E9%87%8D%E5%9B%9ELaTeX/</url>
+      <content type="html"><![CDATA[<h3 id="重回LaTeX"><a href="#重回LaTeX" class="headerlink" title="重回LaTeX"></a>重回LaTeX</h3><p>​    昨天固体物理老师布置了第一次作业，是用doc文档发布的，字体不统一，甚至还有截图放进去的，对复制也造成了一定的干扰。</p><p>​    我思考了一阵后决定用LaTeX来重新排版并生成pdf，LaTeX内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">\usepackage&#123;CJK&#125;</span><br><span class="line">\title&#123;Homework for Solid State Physics1&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;        %应用CJK环境</span><br><span class="line"></span><br><span class="line">\section&#123;Question I&#125;</span><br><span class="line">\paragraph&#123;Elastic modulus of a linear atomic lattice. The potential energy of a pair of atoms in a crystal is of the form&#125;</span><br><span class="line">\paragraph&#123;$$ E_&#123;p&#125;=\alpha _&#123;1&#125;a^&#123;-9&#125;-\alpha _&#123;2&#125;a^&#123;-1&#125; $$&#125;</span><br><span class="line">\paragraph&#123;where a is the interatomic separation. The equilibrium separation is 0.3 nm and the cohesive energy is 4 eV (equivalent to 386 kJ.mol-1).  Find the effective modulus of elasticity for the pair of atoms and determine the force which would be needed to reduce the spacing by 1\%.&#125;</span><br><span class="line"></span><br><span class="line">\paragraph&#123;晶格的弹性模量。 晶体中一对原子的势能由下式决定&#125;</span><br><span class="line">\paragraph&#123;$$ E_&#123;p&#125;=\alpha _&#123;1&#125;a^&#123;-9&#125;-\alpha _&#123;2&#125;a^&#123;-1&#125; $$&#125;</span><br><span class="line">\paragraph&#123;其中 a是原子间距离。两原子间平衡距离是0.3nm，内聚能是4eV（即386 kJ/mol）。求这个原子对的有效弹性模量，并确定将原子间距离减少1\%所需要的力的大小。 &#125;</span><br><span class="line">\paragraph&#123;&#125;</span><br><span class="line">\end&#123;CJK&#125;</span><br><span class="line"></span><br><span class="line">\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;        %应用CJK环境</span><br><span class="line">\section&#123;Question II&#125;</span><br><span class="line"></span><br><span class="line">\paragraph&#123;Take the CsCl structure and assume that the cation radius becomes smaller while the anion radius remains constant. What happens to the binding energy? Show that for cations the NaCl lattice becomes the preferred structure. \\ 以氯化铯型晶体结构为例，假设阴离子恒定而阳离子半径减小。键能如何变化？当这是氯化钠型晶体结构时情况如何？&#125;</span><br><span class="line"></span><br><span class="line">\paragraph&#123;&#125;</span><br><span class="line"></span><br><span class="line">\end&#123;CJK&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p>这是使用效果：</p><center><img src="/2018/09/15/重回LaTeX/latex.png" title="LaTeX使用效果"></center>]]></content>
+      
+      
+        <tags>
+            
+            <tag> LaTeX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>homework for solid state physics-1</title>
+      <link href="/2018/09/14/homework%20for%20solid%20state%20physics-1/"/>
+      <url>/2018/09/14/homework%20for%20solid%20state%20physics-1/</url>
+      <content type="html"><![CDATA[<p>1.</p><p>​    <strong><em>Elastic modulus of a linear atomic lattice</em></strong>.  The potential energy of a pair of atoms in a crystal is of the form：<br>$$<br>E_p=α_1a^{-9}-α_2a^{-1}<br>$$<br>​    where <em>a</em> is the interatomic separation.  The equilibrium separation is 0.3 nm and the cohesive energy is 4 eV (equivalent to 386 kJ.mol-1).  Find the effective modulus of elasticity for the pair of atoms and determine the force which would be needed to reduce the spacing by 1%.</p><p><strong><em>晶格的弹性模量</em></strong> 。 晶体中一对原子的势能由下式决定:<br>$$<br>E_p=α_1a^{-9}-α_2a^{-1}<br>$$<br>​    其中 a是原子间距离。两原子间平衡距离是0.3nm，内聚能是4eV（即386 kJ/mol）。求这个原子对的有效弹性模量，并确定将原子间距离减少1%所需要的力的大小。</p><p>2.</p><p>​    Take the <strong>CsCl</strong> structure and assume that the cation radius becomes smaller while the anion radius remains constant. What happens to the binding energy? Show that for cations the <strong>NaCl</strong> lattice becomes the preferred structure.</p><p>以氯化铯型晶体结构为例，假设阴离子恒定而阳离子半径减小。键能如何变化？当这是氯化钠型晶体结构时情况如何？</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 固体物理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>成键与结晶·从原子说起(1)</title>
+      <link href="/2018/09/14/%E6%88%90%E9%94%AE%E4%B8%8E%E7%BB%93%E6%99%B6%C2%B7%E4%BB%8E%E5%8E%9F%E5%AD%90%E8%AF%B4%E8%B5%B7(1)/"/>
+      <url>/2018/09/14/%E6%88%90%E9%94%AE%E4%B8%8E%E7%BB%93%E6%99%B6%C2%B7%E4%BB%8E%E5%8E%9F%E5%AD%90%E8%AF%B4%E8%B5%B7(1)/</url>
+      <content type="html"><![CDATA[<h3 id="从原子结构说起-1"><a href="#从原子结构说起-1" class="headerlink" title="从原子结构说起(1)"></a>从原子结构说起(1)</h3><p>​    An <strong>atom</strong> is the smallest constituent unit of ordinary matter that has the properties of a chemical element.</p><p>​    <strong>原子</strong>指的是保持物质化学性质不变的基本单位，也既是说，原子是化学反应中最基本的物质单位。 Atom这个名称，来源于古希腊语的ἄτομον (atomos)，即是“不可分割”的意思。古希腊时代的文化与社会传统，催生出一门名作<strong>自然哲学</strong>的学科，旨在探讨本体论意义上的世界的构成和起源，虽然在古代，自然科学这一现代文明的基石尚未产生，但古希腊先贤已经讨论及物质的组成，并将探究物质本源的形而上学传统奠定，而最终催生的自然科学。</p><p>​    存在一不可分割、不生不灭的物质基本组成单位的古希腊哲学思想，在近代的19世纪初由英国化学家约翰·道尔顿( John Dalton)继承并发展，应用于化学领域的研究中，但道尔顿对原子的理解并不涉及到原子的内部结构，仅仅认为原子是不可分割的球形坚硬微粒。</p><p>​    现代意义上的原子模型，要谈及1897年第一个亚原子微粒的发现，那就是<strong>电子</strong>(<strong>electron</strong>)，电子在历史上的第一次发现，在于1897年约瑟夫·约翰·汤姆孙发现放电管中的阴极射线中的粒子携带负电，并测量出荷质比以证明阴极射线是由微粒构成，这种微粒便是今天我们所熟知的电子。</p><p>​    汤姆逊在构想原子的内部结构时，提出了“梅子布丁模型“(Plum Pudding Model)，他的文章发表于《哲学杂志》的1904年3月刊（Philosophical Magazine，March 1904, p. 237-265），这正是那时候最为权威的自然科学期刊。汤姆逊说——</p><p>”我们假定，在原子的内部，有几个粒子，移动于一个正电荷均匀分布的圆球．我们需要解答的问题是 (1) 原子的内部结构细节，也就是说，粒子怎样摆设自己于圆球内？ (2) 这结构会给予原子什么样的性质？“</p><p>​    在他的梅子布丁模型中，原子就像一个密质的布丁，而电子是均匀弥漫在布丁内部的梅子。</p><center><img src="/2018/09/14/成键与结晶·从原子说起(1)/a-phy-radato-dia01.gif" title="pudding_model"></center><p>​    除了J·J·汤姆孙提出来的梅子布丁模型，历史上还曾经有过日本物理学家长冈半太郎提出来的长冈半太郎模型或称土星环模型(Nagaoka Model)。</p><center><img src="/2018/09/14/成键与结晶·从原子说起(1)/1457542130.png" title="nagaoka_model"></center><p>​    长冈半太郎认为，相反的电荷间是无法相互穿透的，故而梅子布丁模型中负电荷内嵌于带正电球体的图像难以想象，因此长冈对汤姆逊的原子模型持反对意见。长冈对原子模型提出来两个预测：(1) 原子有一个质量极大的原子核。(2) 电子环绕原子核，并且由受到电磁作用的束缚。这两点都在卢瑟福于1909年在曼彻斯特主持的盖革－马斯登实验（Geiger-Marsden experiment，即是现在通称的卢瑟福散射实验）中得到了确认。</p><p>​    长冈半太郎的模型灵感，来源于当时对土星环稳定性的解释。因为带电的环将会因为电磁力的排斥力而不稳定，不能够出现在土星环中，故而长冈在得知这一点后放弃了半太郎模型。虽然长冈半太郎的土星环原子模型被否决，但长冈半太郎的物理直觉仍然是准确的，他提出来的两个预测得到了证实，并且被进一步完善为卢瑟福1911年提出的行星模型(Rutherford model) ——电子在原子核外如同行星围绕横行旋转一般围绕原子核进行公转。</p><p>​    根据卢瑟福模型，散射实验的实验现象得以得到说明，并且也大体上地完善了原子的经典物理图像。但经典的物理图像毕竟是经典，它仍然经受不起这样的怀疑：根据经典电磁理论，围绕原子核公转的电子会发射出电磁辐射，损失能量，以至最终坍缩到原子核里。这与实际情况显然不符，卢瑟福没有解释这个矛盾。</p><p>​    1912年，正在曼彻斯特大学工作的尼尔斯·玻尔第一次将量子力学的思想引入到原子的行星模型中，波尔提出，原子中的电子处在一系列分立的稳态上，而非如同行星般连续的轨道上。</p><p>（待续）</p>]]></content>
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>固体化学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F09%2F13%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[该个人博客创建于2018年9月13日 使用Hexo框架与静态页面，并托管于Github 站主邮箱: csj961120@outlook.com]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 固体化学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/09/13/hello-world/"/>
+      <url>/2018/09/13/hello-world/</url>
+      <content type="html"><![CDATA[<p>该个人博客创建于2018年9月13日</p><p>使用Hexo框架与静态页面，并托管于Github</p><p>站主邮箱: <a href="mailto:csj961120@outlook.com" target="_blank" rel="noopener">csj961120@outlook.com</a></p>]]></content>
+      
+      
+    </entry>
+    
+  
+  
 </search>
