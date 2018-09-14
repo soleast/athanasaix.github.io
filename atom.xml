@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-14T09:06:13.092Z</updated>
+  <updated>2018-09-14T10:19:25.975Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>physics[1]</title>
+    <link href="http://yoursite.com/2018/09/14/homework%20for%20solid%20state%20physics-1/"/>
+    <id>http://yoursite.com/2018/09/14/homework for solid state physics-1/</id>
+    <published>2018-09-14T10:17:59.000Z</published>
+    <updated>2018-09-14T10:19:25.975Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.</p><p>​    <strong><em>Elastic modulus of a linear atomic lattice</em></strong>.  The potential energy of a pair of atoms in a crystal is of the form：<br>$$<br>E_p=α_1a^{-9}-α_2a^{-1}<br>$$</p><p>​    where <em>a</em> is the interatomic separation.  The equilibrium separation is 0.3 nm and the cohesive energy is 4 eV (equivalent to 386 kJ.mol-1).  Find the effective modulus of elasticity for the pair of atoms and determine the force which would be needed to reduce the spacing by 1%.</p><p>2.</p><p>​    Take the <strong>CsCl</strong> structure and assume that the cation radius becomes smaller while the anion radius remains constant. What happens to the binding energy? Show that for cations the <strong>NaCl</strong> lattice becomes the preferred structure.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.&lt;/p&gt;
+&lt;p&gt;​    &lt;strong&gt;&lt;em&gt;Elastic modulus of a linear atomic lattice&lt;/em&gt;&lt;/strong&gt;.  The potential energy of a pair of atoms in a crysta
+      
+    
+    </summary>
+    
+    
+      <category term="固体物理" scheme="http://yoursite.com/tags/%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>成键与结晶·从原子说起(1)</title>
